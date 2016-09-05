@@ -293,6 +293,7 @@ onion-omega)
 dhp-1565-a1 |\
 dir-835-a1 |\
 wndr3700v4 | \
+wndr4300v2 | \
 wndr4300)
 	ucidef_add_switch "switch0" \
 		"0@eth0" "1:lan" "2:lan" "3:lan" "4:lan" "5:wan"

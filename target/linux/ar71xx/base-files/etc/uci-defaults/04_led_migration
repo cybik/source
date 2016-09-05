@@ -61,6 +61,7 @@ wndr3700)
 	;;
 
 wndr3700v4 | \
+wndr4300v2 | \
 wndr4300)
 	migrate_leds ":orange:=:amber:"
 	;;

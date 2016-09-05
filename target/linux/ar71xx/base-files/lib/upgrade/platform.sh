@@ -479,6 +479,7 @@ platform_check_image() {
 	nbg6716 | \
 	r6100 | \
 	wndr3700v4 | \
+	wndr4300v2 | \
 	wndr4300 )
 		nand_do_platform_check $board $1
 		return $?;
@@ -540,6 +541,7 @@ platform_pre_upgrade() {
 	nbg6716 | \
 	r6100 | \
 	wndr3700v4 | \
+	wndr4300v2 | \
 	wndr4300 )
 		nand_do_upgrade "$1"
 		;;

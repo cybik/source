@@ -134,7 +134,7 @@ void __init ath79_register_nfc(void)
 {
 	if (soc_is_ar934x())
 		ar934x_nfc_setup();
-	else if (soc_is_qca955x())
+	else if (soc_is_qca955x() || soc_is_qca956x())
 		qca955x_nfc_setup();
 	else
 		BUG();
